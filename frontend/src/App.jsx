@@ -56,7 +56,7 @@ function AppShell() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ShopSphere-ecommerce-platform">
       <AuthProvider>
         <CartProvider>
           <Toaster position="top-center" toastOptions={{ duration: 2500 }} />
